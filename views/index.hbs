@@ -1,0 +1,11 @@
+<h1>Cthulu says</h1>
+<img src = "/cute_cthulhu_1.png">
+<form action = "/login" method = "post">
+<label for = "name">What is your name?</label>
+<select name = "id">
+  {{#each people}}
+  <option value = "{{id}}">{{name}}</option>
+  {{/each}}
+</select>
+<button>Go!</button>
+</form>

@@ -1,0 +1,14 @@
+<h2>Hi {{user.name}}</h2>
+<form action = "/submit/{{user.id}}" method = "post">
+<div class = "row"><label for = "name">Who would you like to send your compliment to?</label></div>
+<div class = "row"><select name="receiver_id"  class="compliment"></div>
+  {{#each receivers}}
+  <option value="{{id}}">{{name}}</option>
+  {{/each}}
+</select>
+<div class = "row"><textarea name="phrase"></textarea></div>
+<button>Send</button>
+</form><br>
+<img class ="abc" src = "http://brentschoonover.com/assets/Cthulhu.gif">
+
+
