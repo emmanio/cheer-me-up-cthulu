@@ -1,0 +1,93 @@
+body {
+  background-color:rgb(0, 143, 143);
+  font-family: 'Happy Monkey'; 
+}
+
+h1 {
+  font-size: 100px !important;
+  padding-top: 70px;
+  color: rgb(242, 255, 244);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-size: 100px !important;
+  padding-top: 70px;
+  color: rgb(242, 255, 244);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+  font-size: 40px !important;
+  padding-top: 70px;
+  color: rgb(242, 255, 244);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  height: 500px;
+  padding-left: 230px;
+}
+
+label {
+  font-size: 40px;
+  color: rgb(242, 255, 244);
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  padding-bottom: 30px;
+}
+
+form {
+  text-align: center;
+}
+
+select {
+  height: 70px !important;
+  width: 200px !important;
+  font-size: 30px; 
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: rgb(0, 143, 143);
+}
+
+button {
+  height: 70px !important;
+  width: 200px !important;
+  font-size: 30px !important; 
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: white !important;
+  border: solid 2px white !important;
+}
+
+.compliment {
+  height: 80px !important;
+  width: 50px;
+}
+
+textarea {
+  height: 200px !important;
+  width: 500px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.row2 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.speaker {
+  border: none !important;
+}
+
+.abc {
+  height: 250px;
+  padding-right: 200px;
+}
