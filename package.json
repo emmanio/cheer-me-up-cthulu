@@ -1,0 +1,26 @@
+{
+  "name": "cheer-me-up-cthulu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emmanio/cheer-me-up-cthulu.git",
+  "author": "emma-nio <emmanioashley@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "knex": "knex",
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "knex": "^0.15.2",
+    "nodemon": "^1.18.3",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^23.5.0",
+    "supertest": "^3.1.0"
+  }
+}
