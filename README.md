@@ -7,10 +7,12 @@ We used Express, Express-Handlebars, Knex and Sqlite3
 
 **How to use:**
 
+```
 clone this repo
 
 cd cheer-me-up-cthulu
 
 yarn start
 
-go to localhost:3000 in your browser! 
+go to localhost:3000 in your browser!
+```
